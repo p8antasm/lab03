@@ -74,6 +74,7 @@ INT main()
         }
     }
 
+
     INT result;
     wstring volumeName;
 
@@ -179,6 +180,7 @@ INT main()
     }
     delete[] buffer;
     CloseHandle(hDisk);
+    system("pause");
     return 0;
 }
 INT64 SetFileSeek(HANDLE h, INT64 distance, INT16 seekMethod)
